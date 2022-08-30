@@ -1,0 +1,33 @@
+*{
+
+	font-weight: 100;
+	font-size: 20px;
+}
+
+
+form {
+
+	margin: 100px auto;
+	display: block;
+	background-color: #555;
+	padding: 100px;
+	width: 50%;
+
+}
+
+b {
+
+	padding: 6px;
+	width: 100%;
+}
+
+b::before {
+	content: "me suscribi";
+	
+}
+
+
+
+
+
+

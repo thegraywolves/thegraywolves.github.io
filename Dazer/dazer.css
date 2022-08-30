@@ -1,0 +1,171 @@
+* {
+	font-family: 'Electrolize', sans-serif;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(hd-gif-wallpapers-1920x1080p-def.gif);
+	/*background-size: 1376px 768px;*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	color: red;
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+
+.icons {
+	padding-right: 7px;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+
+.div-fondo {
+	/*background: rgba(100, 100, 100, 0.7);*/
+	background: rgba(20, 20, 40, 0.6);
+	width: 1100px;
+	border-radius: 5px;
+
+}
+.div-fondo-bajo {
+	/*background: rgba(110, 110, 100, 0.5);*/
+	background: rgba(20, 20, 40, 0.6);
+	position: relative;
+	bottom: 0;
+
+}
+
+.div-h1 {
+	background: rgba(20, 20, 40, 0.6);
+
+}
+.h1-text {
+	font-size: 50px;
+}
+.div-h2 {
+	/*background: rgba(220, 220, 230, 0.3);*/
+	background: rgba(20, 20, 40, 0.6);
+}
+
+.a-fondo-bajo:visited { 
+	color: palevioletred;
+}
+.a-fondo-bajo:hover {
+	color: lightblue;
+}
+
+/*Prueba*/
+.Chibi {
+	height: 450px;
+	width: 250px;
+	position: relative;
+	right: -1120px;
+	bottom: 450px;
+	display:inline;
+
+
+}
+
+/*Inicio Nuevo*/
+
+/*Chibi Gif*/
+.photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline;
+  cursor: pointer;
+}
+/* Contenedor de la imagen */
+.photo-container {
+  right: -25px;
+  bottom: 160px;
+  opacity: 0;
+  position: fixed;
+  display: none;
+  width: 205px;
+  height: 150px;
+}
+/* Banner de la imagen */
+.photo-banner {
+  /*position: absolute;*/
+  right: -25px;
+  bottom: 160px;
+  position: fixed;
+  display: block;
+  width: 205px;
+  height: 150px;
+}
+.texto-gif {
+  opacity: 0;
+  bottom: 155px;
+  right: 170px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 130px;
+  height: 35px;
+  position: fixed;
+  color: black;
+}
+/* Cuando se haga hover sobre el contenedor */
+.photo:hover > .photo-container {
+  opacity: 1;
+  display: block;
+}
+.photo:hover > .photo-banner {
+  opacity: 0;
+ 
+}
+.photo:hover + .texto-gif {
+  opacity: 1;
+}
+.texto-2 {
+  font-size: 25px;
+  width: 1000px;
+}
+
+/* UL*/
+.ul-style {
+  list-style-type:disc;
+  padding-left: 25px;
+
+}
+.ul-style li {
+	font-size: 25px;
+}
+/*UL Fin*/
+#imagen-dazer {
+	border-radius: 25px;
+}

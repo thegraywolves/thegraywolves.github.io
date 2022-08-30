@@ -1,0 +1,297 @@
+* {
+	font-family: 'PT Serif', serif;
+	font-size: 25px;
+	color: black;
+}
+
+body {
+	background-image: url(fondobell3.jpg);
+	background-size: 1376px 768px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	/*color: ;*/
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+
+.icons {
+	padding-right: 7px;
+	color: white;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+.Epico	{
+	display: block;
+	text-align: center;
+	/*background-color: red;*/
+	width: 330px;
+	position: relative;
+	margin: auto;
+	border-radius: 30px;
+}
+.h1-div { 
+	background-color: blue;
+	display: inline-block;
+	/*padding-top: -105px;*/
+	border-radius: 100px;
+	background: rgba(200, 200, 200, 0.5);
+	position: relative;
+}
+.Epico2 {
+	text-align: center;
+}
+.h2-div { 
+	background-color: blue;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgba(190, 190, 190, 0.7);
+}
+
+.div-p {
+	
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgba(200, 200, 200, 0.7);
+	width: 1100px;		
+}
+
+.a-fondo-bajo:visited { 
+	color: mediumvioletred;
+}
+.a-fondo-bajo:hover {
+	color: skyblue;
+}
+.div-fondo { 
+	background: rgba(200, 200, 200, 0.4);
+	padding-left: 8px;
+	padding-bottom: 5px;
+ }
+
+
+
+
+/*Chibi Gif*/
+.photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline;
+  cursor: pointer;
+}
+/* Contenedor de la imagen */
+.photo-container {
+  right: -51px;
+  bottom: -5px;
+  opacity: 0;
+  position: fixed;
+  display: none;
+
+}
+/* Banner de la imagen */
+.photo-banner {
+  position: absolute;
+  right: -51px;
+  bottom: -5px;
+  position: fixed;
+  display: block;
+}
+.texto {
+  opacity: 0;
+  bottom: 75px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 90px;
+  position: fixed;
+  color: black;
+}
+/* Cuando se haga hover sobre el contenedor */
+.photo:hover > .photo-container {
+  opacity: 1;
+  display: block;
+}
+.photo:hover > .photo-banner {
+  opacity: 0;
+ 
+}
+.photo:hover > .texto {
+  opacity: 1;
+}
+.texto-2 {
+  font-size: 25px;
+  width: 1000px;
+}
+
+
+
+
+
+/* Cuando se haga hover sobre el contenedor */
+#foto-bell {
+	display: inline;
+}
+.texto-foto {
+  opacity: 0;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
+  position: fixed;
+  color: black;
+}
+/*Container*/
+#foto-bell:hover > .texto-foto {
+  opacity: 1;
+  bottom: 75px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 200px;
+  height: 40px;
+  position: fixed;
+  color: black;
+}
+
+#foto-bell:hover ~ .photo .photo-container{
+  opacity: 1;
+  display: block;
+}
+#foto-bell:hover ~ .photo .photo-banner{
+  opacity: 0;
+
+}
+/*Nuevo texto*/ 
+.texto-h1 {
+  opacity: 0;
+  bottom: 75px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 200px;
+  height: 60px;
+  position: fixed;
+  color: black;
+}
+
+.Epico:hover ~ .texto-h1 {
+  opacity: 1;
+  bottom: 75px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 200px;
+  height: 64px;
+  position: fixed;
+  color: black;
+}
+.Epico:hover ~ .photo .photo-container{
+  opacity: 1;
+  display: block;
+}
+.Epico:hover ~ .photo .photo-banner{
+  opacity: 0;
+
+}
+/*Audio Background*/
+audio { 
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: seagreen;
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}
+/*Fin audio*/
+
+/*Texto audio*/
+.texto-musica {
+  opacity: 0;
+  padding: 2px;
+  bottom: 68px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 152px;
+  height: 124px;
+  position: fixed;
+  color: black;
+}
+audio:hover + .texto-musica {
+  opacity: 1;
+}
+Audio:hover ~ .photo .photo-container{
+  opacity: 1;
+  display: block;
+}
+Audio:hover ~ .photo .photo-banner{
+  opacity: 0;
+
+}
+
+/*fin*/
+/*.hablando {
+  marker-start: ;
+  
+}*/
+
+
+
+/* UL*/
+.ul-style {
+  list-style-type:disc;
+  padding-left: 20px;
+}
+/*UL Fin*/

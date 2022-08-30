@@ -1,0 +1,88 @@
+*{
+	font-family: 'DM Serif Display', serif;
+	font-size: 20px;
+	color: whitesmoke;
+} 
+
+body {
+	background-image: url(fondodef.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/*Div navegación*/
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	/*border: 2px solid #000;*/
+	display: inline-block;
+	margin-bottom: 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid	#000;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	color: ;
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: orangered;
+}
+
+.icons {
+	padding-right: 7px;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+/*Fin Div-navegación*/
+.div-fondo-a:visited { 
+	color: orangered;
+}
+.div-fondo-a:hover {
+	color: darkorange;
+}
+/*Imagenes*/
+#img1 {
+	margin-left: 5px;
+	border-radius: 5px;
+	/*width: 294px;
+	height: 307px;*/
+}
+#img2 {
+	border-radius: 4px;
+	position: relative;
+	bottom: 150px;
+	margin-left: -5px;
+}
+/*#img1:hover {
+	width: 350px;
+	height: 350px;
+	transition: all 0.5s;
+
+}*/
+/*Fin Imagenes*/
+/* Div central*/ 
+.div-p {
+	
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgba(200, 200, 200, 0.4);
+	/*width: 1100px;*/
+}
+.ul-style li {
+	color: black;
+}
