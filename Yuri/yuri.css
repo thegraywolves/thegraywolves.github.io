@@ -1,0 +1,285 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(fondodef.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	color: ;
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: violet;
+}
+
+.icons {
+	padding-right: 7px;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+
+.juegos-titulo {
+	text-align: center;
+	font-size: 45px;
+	border: 3px solid blueviolet;
+	background-color: rgba(153, 00, 204, 0.4);
+	padding: 5px 15px;
+	border-radius: 5px;
+	/*opacity: 0.2;
+	background: rgba(99, 00, cc, 0.6);*/
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.div-juegos-titulo { 
+	display: block;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	/*background-color: red;*/
+	width: 220px;
+	padding-top: 1px;
+	height: 69px;
+}
+/*Audio*/
+audio { 
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: blueviolet;
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}
+audio:hover ~ .photo .photo-container {
+  opacity: 1;
+  display: block;
+}
+audio:hover ~ .photo .photo-banner {
+  opacity: 0;
+}
+.reproductor {
+	opacity: 0;
+  bottom: 243px;
+  right: 100px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  padding-left: 2px;
+  font-size: 25px;
+  width: 300px;
+  height: 32px;
+  position: fixed;
+  color: black;
+}
+audio:hover ~ .reproductor {
+	opacity: 1;
+}
+/*Fin audio*/
+
+/*Fondo Links*/ 
+.a-fondo-bajo:visited { 
+	/*color: palevioletred;*/
+}
+.a-fondo-bajo:hover {
+	color: blueviolet;
+}
+/*Fin fondo links*/
+
+.yuri-imagen {
+	margin-left: 10px;
+	border-radius: 2%;
+}
+
+
+.texto-central {
+	width: 930px;
+	background-color: rgba(40, 40, 40, 0.6);
+	border-radius: 10px;
+	margin-left: 5px;
+	background-color: rgba(40, 40, 40, 0.6);
+	border-radius: 10px;
+	padding-left: 25px;
+}
+.ul-texto {
+		list-style-type: square;
+}
+/*Texto-central meme*/
+.p-li-nombre-respuesta {
+	opacity: 0;
+  bottom: 243px;
+  right: 100px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 290px;
+  height: 60px;
+  position: fixed;
+  color: black;
+}
+.Block {
+	/*background-color: red;*/
+	height: 22px;
+	width: 285px;
+	position: absolute;
+	left: 30px;
+}
+.Block:hover + .li-nombre-respuesta .p-li-nombre-respuesta {
+	opacity: 1;
+}
+
+.Block:hover ~ .photo .photo-container {
+  opacity: 1;
+  display: block;
+}
+.Block:hover ~ .photo .photo-banner {
+  opacity: 0;
+}
+
+/*Texto central meme*/
+
+
+/*Chibi Gif*/
+.photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline;
+  cursor: pointer;
+}
+/* Contenedor de la imagen */
+.photo-container {
+  right: -18px;
+  bottom: -6px;
+  opacity: 0;
+  position: fixed;
+  display: none;
+
+}
+/* Banner de la imagen */
+.photo-banner {
+  position: absolute;
+  right: -18px;
+  bottom: -6px;
+  position: fixed;
+  display: block;
+}
+.texto-gif {
+  opacity: 0;
+  bottom: 243px;
+  right: 200px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 115px;
+  position: fixed;
+  color: black;
+}
+/* Cuando se haga hover sobre el contenedor */
+.photo:hover > .photo-container {
+  opacity: 1;
+  display: block;
+}
+.photo:hover > .photo-banner {
+  opacity: 0;
+ 
+}
+.photo:hover + .texto-gif {
+  opacity: 1;
+}
+
+/* Gif-Juegos*/
+.texto-juegos {
+	opacity: 0;
+  bottom: 243px;
+  right: 140px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 250px;
+  height: 35px;
+  position: fixed;
+  color: black;
+}
+
+.div-juegos-titulo:hover ~ .photo .photo-container {
+  opacity: 1;
+  display: block;
+}
+
+.div-juegos-titulo:hover ~ .photo .photo-banner {
+  opacity: 0;
+}
+.div-juegos-titulo:hover + .texto-juegos {
+	opacity: 1;
+}
+
+/*H1 y H2*/
+h1 {
+	background-color: rgba(40, 40, 40, 0.6);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+}
+.h2-subtitulo {
+	background-color: rgba(40, 40, 40, 0.6);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	display: block;
+	width: 130px;
+}
+/*Fin H1 y H2*/
+
+/*JUEGOS*/
+.ugandan-war {
+	background-color: rgba(40, 40, 40, 0.6);
+	/*background-color: red;*/
+	width: 265px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	display: block;
+}
+/*Juegos fin*/

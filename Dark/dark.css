@@ -1,0 +1,109 @@
+* {
+	font-family: 'Supermercado One', cursive;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(fondodef.jpg);
+	/*background-size: 1376px 768px;*/
+	/*background-size: 1376px 768px;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+/*Div navegación*/
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+	text-decoration: none;
+	display: inline;
+	color: ;
+}
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+.icons {
+	padding-right: 7px;
+}
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+}
+/*Fin Div-navegación*/
+
+/*H1 y H2*/
+.h1-titulo {
+	background-color: rgba(80, 80, 80, 0.8);
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 3px;
+	padding: 3px;
+}
+.h2-titulo {
+	background-color: rgba(80, 80, 80, 0.8);
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+/*H1 y H2 fin*/
+.texto-central {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background-color: rgba(80, 80, 80, 0.8);
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#mcnalgas {
+	margin-left: 10px;
+}
+/*Texto fondo A*/
+.div-fondo-bajo {
+	margin-left: 10px;
+}
+.a-fondo-bajo:visited { 
+	color: sandybrown;
+}
+.a-fondo-bajo:hover {
+	color: brown;
+}
+/*Texto fondo A fin*/
+
+
+
+/*Prueba B*/
+.div-foto {
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.mcnalgas { 
+	border-radius: 3px; 
+}
+.div-foto-2 { 
+	display: none;
+}
+
+.div-foto:hover + .div-foto-2 {
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: rgba(10, 10, 10, 0.6);
+}
+/*Prueba B Fin*/

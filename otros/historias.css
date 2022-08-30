@@ -1,0 +1,162 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	color: #DDD;
+}
+
+body { 
+	background-image: url(../historias/fondo.gif);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+body > * {
+  width: 100%;
+  border: 1px solid #000;
+  border-bottom-width: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(192, 249, 255, 0.1);
+}
+
+body > *:last-child {
+  border-bottom-width: 1px;
+}
+
+header,
+footer {
+  min-height: 100px;
+}
+header {
+	margin-top: 5px;
+}
+#Caja-expandible {
+
+	padding: 5px;
+	background: #555;
+	/*border: 3px solid #000;*/
+	display: inline-block;
+	/*margin-bottom: 20px;*/
+	border-top-right-radius: 5px solid lightblue;
+	border-bottom-right-radius: 5px solid lightblue;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #000 ;
+	position: relative;
+	z-index: 100;
+	
+
+
+}
+.icons {
+	padding-right: 7px;
+}
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke;
+}
+.a-prueba:hover {
+	color: #BAF5FB;
+}
+
+.h2-titulo {
+	display: inline-block;
+	font-size: 35px;
+}
+
+/*.img-titulo {
+	width: 30px;
+	height: 30px;
+}*/
+
+
+
+aside {
+  width: 25%;
+  border: 0 solid #000;
+  border-left-width: 1px;
+  background: rgba(50, 50, 50, 0.1);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+.texto-fondo {
+
+	position: relative;
+	left: 0;
+	bottom: 0;
+	margin-left: 5px;
+	margin-bottom: 4px;
+
+	
+}
+
+.container .body {
+  width: 75%;
+}
+
+.container {
+  display: flex;
+  min-height: 300px;
+}
+
+footer {
+	background: rgba(192, 249, 255, 0.1);
+}
+
+
+
+
+
+
+
+li a:visited {
+	color: #dda;
+}
+li a:hover {
+	color: #99e;
+}
+
+.texto-fondo a:hover {
+	color: goldenrod;
+}
+
+
+
+.ul-fondo {
+	background: rgba(192, 249, 255, 0.1);
+	text-align: left;
+	/*font-size: 40px;*/
+}
+.ul-fondo li {
+	margin-left: 35px;
+}
+
+header {
+	/*background: rgba(192, 249, 255, 1);*/
+	/*display: inline;*/
+}

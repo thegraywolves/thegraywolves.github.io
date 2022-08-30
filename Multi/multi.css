@@ -1,0 +1,124 @@
+* {
+	font-family: 'Supermercado One', cursive;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(fondo_m.jpg);
+	/*background-size: 1376px 768px;*/
+	/*background-size: 1376px 768px;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1 {
+	background-color: grey;
+	display: inline-block;
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 5px;
+	background: rgba(50, 50, 50, 0.7);
+}
+h2 {
+	background-color: grey;
+	display: inline-block;
+	color: whitesmoke;
+	padding: 2px;
+	border-radius: 5px;
+	background: rgba(50, 50, 50, 0.7);
+}
+/*Div navegación*/
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	color: ;
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+
+.icons {
+	padding-right: 7px;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+/*Fin Div-navegación*/
+
+.a-fondo-bajo:visited { 
+	color: palevioletred;
+}
+.a-fondo-bajo:hover {
+	color: blueviolet;
+}
+/*Audio Background*/
+audio { 
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: slateblue;
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}
+/*Fin audio*/
+.texto-central {
+	background-color: rgba(180, 180, 180, 0.6);
+	/*color: black;*/
+}
+.texto-central p {
+	color: black;
+}
+.bajo-fondo {
+	/*background-color: rgba(180, 180, 180, 0.6);*/
+	background: rgba(50, 50, 50, 0.7);
+	color: whitesmoke;
+}
+.a-fondo-bajo {
+	color: black;
+}
+
+/* Div central*/ 
+.div-p {
+	
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgba(50, 50, 50, 0.7);
+	/*width: 1100px;*/
+}
+.ul-style {
+	list-style-type:disc;
+	padding-left: 20px;
+}
+.ul-style li {
+	color: black;
+	font-size: 25px;
+	color: whitesmoke;
+
+}
+/* Div central fin*/

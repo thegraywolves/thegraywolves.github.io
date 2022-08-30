@@ -1,0 +1,141 @@
+/*.h2-div {
+  background-color: red;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(190, 190, 190, 0.7);
+
+}*/
+/*.h2-div:hover + .textoupper {
+  opacity: 1;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 90px;
+  position: fixed;
+  color: black;
+}
+
+
+.textoupper {
+  opacity: 0;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 90px;
+  position: fixed;
+  color: black;
+}*/
+
+
+
+
+/*Chibi Gif*/
+.photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline;
+  cursor: pointer;
+}
+/* Contenedor de la imagen */
+.photo-container {
+  right: 0;
+  bottom: -5px;
+  opacity: 0;
+  position: fixed;
+  display: none;
+}
+/* Banner de la imagen */
+.photo-banner {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  position: fixed;
+  display: block;
+}
+.texto {
+  opacity: 0;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 90px;
+  position: fixed;
+  color: black;
+}
+/*Cuando se haga hover sobre el contenedor */
+.photo:hover > .photo-container {
+  opacity: 1;
+  display: block;
+}
+.photo:hover > .photo-banner {
+  opacity: 0;
+}
+.photo:hover + .texto {
+  opacity: 1;
+}
+.texto-2 {
+  font-size: 25px;
+  width: 1000px;
+}
+
+
+
+
+
+/* Cuando se haga hover sobre el contenedor */
+#foto-bell {
+  display: inline;
+}
+.texto-foto {
+  opacity: 0;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
+  position: fixed;
+  color: black;
+}
+ /*Container*/
+ #foto-bell:hover > .texto-foto {
+  opacity: 1;
+  bottom: 75px;
+  right: 260px;
+  border: 2px solid grey;
+  background-color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
+  position: fixed;
+  color: black;
+}
+#foto-bell:hover + .photo .photo-container {
+  opacity: 1;
+  display: block;
+}
+#foto-bell:hover + .photo .photo-banner {
+  opacity: 0;
+
+}

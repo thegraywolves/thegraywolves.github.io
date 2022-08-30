@@ -1,0 +1,120 @@
+* {
+	font-family: 'Supermercado One', cursive;
+	font-size: 25px;
+	color: black;
+}
+
+body {
+	background-image: url(fondodef.jpg);
+	/*background-size: 1376px 768px;*/
+	/*background-size: 1376px 768px;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*Div navegación*/
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	/*color: ;*/
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+
+.icons {
+	padding-right: 7px;
+	color: white;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+/*Fin Div-navegación*/
+
+.a-fondo-bajo:visited { 
+	color: red;
+}
+.a-fondo-bajo:hover {
+	color: yellow;
+}
+/*Fin fondo bajo*/
+
+.texto-principal {
+	margin-left: 5px;
+	padding: 2px;
+	background-color: rgba(200, 200, 200, 0.3);
+	border-radius: 2px;
+	font-size: 40px;
+}
+.texto-fondo {
+	margin-left: 5px;
+	padding: 2px;
+	background-color: rgba(200, 200, 200, 0.4);
+	border-radius: 2px;
+}
+.h1-texto {
+	margin-left: 5px;
+	padding: 2px;
+	background-color: rgba(200, 200, 200, 0.6);
+	border-radius: 15px;
+	display: inline-block;
+	padding: 5px;
+	
+}
+.h2-texto {
+	margin-left: 5px;
+	padding: 2px;
+	background-color: rgba(200, 200, 200, 0.6);
+	border-radius: 15px;
+	display: inline-block;
+	padding: 5px;
+}
+
+/*Audio Background*/
+audio { 
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: darkorange;
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}
+/*Fin audio*/
+
+/* UL*/
+.ul-style {
+  list-style-type:disc;
+  padding-left: 25px;
+  font-size: 40px;
+  text-shadow: 0 0 3px white;
+}
+/*UL Fin*/
+
+/*.p-ul {
+	font-size: 40px;
+}*/

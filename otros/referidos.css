@@ -1,0 +1,156 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(discord.png);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.Caja-expandible {
+
+	padding: 5px;
+	background: #555;
+	/*border: 3px solid #000;*/
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #000 ;
+
+}
+.icons {
+	padding-right: 7px;
+}
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke;
+}
+.a-prueba:hover {
+	color: #BAF5FB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1 {
+	font-size: 60px;
+	text-shadow: 0 0 20px rgb(95, 35, 206);
+}
+
+
+
+
+
+
+
+
+
+.caja-integrantes {
+	position: relative;
+	bottom: 35px;
+	/*width: 200px;
+	height: 200px;
+	background-color: #444;
+	border-radius: 7px;
+	border-top: 4px solid #111;
+	border-right: 4px solid #222;
+	border-bottom: 4px solid #222;*/
+}
+
+.ul-li-nombres {
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+.texto-fondo {
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 5px;
+	margin-bottom: 4px;
+	
+}
+
+.link-fondo {
+	color: #b4b;
+}
+
+.link-fondo-texto {
+	display: inline;
+	color: lightblue;
+}
+
+
+
+
+.discord-icons {
+
+	position: relative;
+	top: 12px;
+	height: 30px;
+	width: 30px;
+}
+.youtube-icons {
+	position: relative;
+	top: 12px;
+	height: 30px;
+	width: 40px;
+}
+
+/*audio { 
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: lightskyblue;
+	
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}*/
+
+
