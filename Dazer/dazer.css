@@ -60,7 +60,6 @@ body {
 .div-fondo {
 	/*background: rgba(100, 100, 100, 0.7);*/
 	background: rgba(20, 20, 40, 0.6);
-	width: 1100px;
 	border-radius: 5px;
 
 }
@@ -192,11 +191,6 @@ body {
   	height: 280px;
 	}
 	body {
-		/*background-size: 100vh 100vw;*/
-		/*background-size: cover;*/
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		overflow: visible;
-		box-sizing: border-box;
+		background-size: cover;
 	}
 }
