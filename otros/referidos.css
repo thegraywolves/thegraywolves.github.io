@@ -3,16 +3,19 @@
 	font-size: 20px;
 	color: whitesmoke;
 }
-
 body {
 	background-image: url(discord.png);
 	background-size: cover;
 	background-attachment: fixed;
-
 }
-
+/*Inicio*/
+.contenedor{
+	width: 100%;
+}
+.home{
+	width: 100%;
+}
 .Caja-expandible {
-
 	padding: 5px;
 	background: #555;
 	/*border: 3px solid #000;*/
@@ -22,7 +25,6 @@ body {
 	border-bottom-right-radius: 3px;
 	border-bottom: 3px solid #000;
 	border-right: 3px solid #000 ;
-
 }
 .icons {
 	padding-right: 7px;
@@ -32,7 +34,6 @@ body {
 	display: inline-block;
 	margin: 5px 15px;
 	color: whitesmoke;
-	
 }
 .a-prueba {
 
@@ -49,32 +50,10 @@ body {
 	color: #BAF5FB;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .h1 {
 	font-size: 60px;
 	text-shadow: 0 0 20px rgb(95, 35, 206);
 }
-
-
-
-
-
-
-
-
 
 .caja-integrantes {
 	position: relative;
@@ -96,14 +75,6 @@ body {
 	padding: 5px 10px;
 }
 
-
-
-
-
-
-
-
-
 .texto-fondo {
 
 	position: absolute;
@@ -124,8 +95,6 @@ body {
 }
 
 
-
-
 .discord-icons {
 
 	position: relative;
@@ -139,6 +108,57 @@ body {
 	height: 30px;
 	width: 40px;
 }
+@media screen and (max-width: 640px) {
+	.home{
+		width: 100%;
+		box-sizing: border-box;
+		margin: auto auto;
+	}
+	.Caja-expandible {
+		padding: 5px;
+		background: #555;
+		border: 5px solid #000;
+		border-top: none;
+		display: block;
+		margin-bottom: 20px;
+		border-radius: 3px black;
+		display: flex;
+	}
+	.Caja-expandible i{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.expandible-li {
+		display: inline-block;
+		color: whitesmoke;
+	}
+	.h1 {
+		font-size: 40px;
+		text-shadow: 0 0 20px rgb(95, 35, 206);
+	}
+	body {
+		background-image: url(discord.png);
+		background-size: cover;
+		background-position: center;
+		/*background-attachment: fixed;*/
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*audio { 
 	position: fixed;
@@ -152,5 +172,3 @@ body {
 audio:hover {
 	opacity: 1;
 }*/
-
-
