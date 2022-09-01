@@ -20,7 +20,7 @@ body {
 	background: #555;
 	/*border: 3px solid #000;*/
 	display: inline-block;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	border-bottom: 3px solid #000;
@@ -29,18 +29,14 @@ body {
 .icons {
 	padding-right: 7px;
 }
-
 .expandible-li {
 	display: inline-block;
 	margin: 5px 15px;
 	color: whitesmoke;
 }
 .a-prueba {
-
 	text-decoration: none;
 	display: inline;
-	
-
 }
 
 .a-prueba:visited {
@@ -57,7 +53,7 @@ body {
 
 .caja-integrantes {
 	position: relative;
-	bottom: 35px;
+	/*bottom: 35px;*/
 	/*width: 200px;
 	height: 200px;
 	background-color: #444;
@@ -80,7 +76,7 @@ body {
 	left: 0;
 	bottom: 0;
 	margin-left: 5px;
-	margin-bottom: 4px;
+	/*margin-bottom: 4px;*/
 }
 
 .link-fondo {
@@ -109,36 +105,89 @@ body {
 @media screen and (max-width: 640px) {
 	.home{
 		width: 100%;
+		background-color: red;
 		box-sizing: border-box;
-		margin: auto auto;
+		/*margin: auto auto;*/
 	}
 	.Caja-expandible {
 		padding: 5px;
 		background: #555;
 		border: 5px solid #000;
-		border-top: none;
+		/*border-top: none;*/
 		display: block;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		border-radius: 3px black;
 		display: flex;
+		margin-bottom: -10px;
 	}
-	.Caja-expandible i{
+	/*.Caja-expandible i{
 		flex-direction: row;
 		flex-wrap: wrap;
-	}
+	}*/
 	.expandible-li {
 		display: inline-block;
 		color: whitesmoke;
+		margin: 5px 10px;
 	}
 	.h1 {
-		font-size: 40px;
+		font-size: 35px;
 		text-shadow: 0 0 20px rgb(95, 35, 206);
+		margin-bottom: -5px;
 	}
 	body {
 		background-image: url(discord.png);
 		background-size: cover;
 		background-position: center;
 		/*background-attachment: fixed;*/
+	}
+}
+@media screen and (max-width: 340px) {
+	/*.home2 {
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}*/
+	.h1 {
+		font-size: 40px;
+	}
+	.ul-li-nombres{
+		font-size: 30px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 19px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 320px) {
