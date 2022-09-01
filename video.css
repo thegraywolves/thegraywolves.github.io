@@ -10,6 +10,9 @@ body {
 	background-attachment: fixed;
 
 }
+.contenedor{
+	width: 100%;
+}
 
 .Caja-expandible {
 
@@ -93,4 +96,28 @@ body {
 .div-video-3 {
  	text-align: center;
  	margin-top: 10px;
+}
+@media screen and (max-width: 640px) {
+	.home{
+		width: 100%;
+		
+	}
+	.home .Caja-expandible{
+		padding: 0;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom: 5px solid #000;
+
+	}
+	.home i{
+		font-size: 25px;
+	}
+	.home a{
+		font-size: 20px;
+	}
+	.contenedor iframe{
+		width: 90%;
+		height: auto;
+	}
+	
 }
