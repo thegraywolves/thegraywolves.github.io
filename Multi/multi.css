@@ -139,7 +139,7 @@ audio:hover {
 	}
 	body{
 	background-size: cover;
-	background-position: center;
+	/*background-position: center;*/
 	/*background-attachment: scroll;*/
 	}
 }
