@@ -212,4 +212,7 @@ header {
 	.home3 a{
 		font-size: 20px;
 	}
+	body{
+		background-attachment: scroll;
+	}
 }
