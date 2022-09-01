@@ -138,7 +138,8 @@ audio:hover {
 		opacity: 0.2;
 	}
 	body{
-	background-size: cover;
+	/*background-size: cover;*/
+	background-position: center;
 	background-attachment: scroll;
 	}
 }
