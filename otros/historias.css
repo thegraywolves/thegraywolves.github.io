@@ -95,14 +95,11 @@ aside {
 }
 
 .texto-fondo {
-
 	position: relative;
 	left: 0;
 	bottom: 0;
 	margin-left: 5px;
 	margin-bottom: 4px;
-
-	
 }
 
 .container .body {
@@ -157,8 +154,6 @@ header {
 	.home {
 		width: 100%;
 		margin: auto;
-		
-		
 	}
 	#Caja-expandible{
 		border-top: 3px solid slategray;
@@ -216,4 +211,12 @@ header {
 		background-size: cover;
 		background-attachment: scroll;
 	}
+	.texto-fondo {
+		position: relative;
+		left: 0;
+		bottom: 0;
+		margin-left: 5px;
+		margin-bottom: 0;
+	}
+	
 }
