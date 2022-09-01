@@ -137,9 +137,9 @@ audio:hover {
 		border-radius: 15px;
 		opacity: 0.2;
 	}
-	body{
+	/*body{
 	background-size: cover;
-	/*background-position: center;*/
-	/*background-attachment: scroll;*/
-	}
+	background-position: center;
+	background-attachment: scroll;
+	}*/
 }
