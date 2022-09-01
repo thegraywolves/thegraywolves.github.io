@@ -316,6 +316,6 @@ audio:hover {
 		opacity: 0.1;
 	}
 	body{
-	background-size: cover;
+	background-size: 100% 100%;
 	}
 }
