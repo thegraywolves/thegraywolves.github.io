@@ -76,13 +76,11 @@ body {
 }
 
 .texto-fondo {
-
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	margin-left: 5px;
 	margin-bottom: 4px;
-	
 }
 
 .link-fondo {
@@ -143,7 +141,96 @@ body {
 		/*background-attachment: fixed;*/
 	}
 }
+@media screen and (max-width: 320px) {
+	/*.home2 {
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
 
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}*/
+	.ul-li-nombres{
+		font-size: 28px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 18px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 290px) {
+	.home2 {
+		/*background-color: red;*/
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 18px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
 
 
 
