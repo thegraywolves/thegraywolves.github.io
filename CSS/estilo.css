@@ -315,4 +315,7 @@ audio:hover {
 		border-radius: 15px;
 		opacity: 0.1;
 	}
+	body{
+	background-attachment: scroll;
+	}
 }
