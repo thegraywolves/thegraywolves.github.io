@@ -140,6 +140,6 @@ audio:hover {
 	body{
 	background-size: cover;
 	background-position: center;
-	background-attachment: scroll;
+	/*background-attachment: scroll;*/
 	}
 }
