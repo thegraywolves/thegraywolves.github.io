@@ -3,15 +3,23 @@
 	font-size: 20px;
 	color: whitesmoke;
 }
-
 body {
 	background-image: url(hd-gif-wallpapers-1920x1080p-def.gif);
 	/*background-size: 1376px 768px;*/
 	background-size: cover;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 }
-
-
+.contenedor{
+	width: 100%;
+}
+.home{
+	display: flex;
+	width: 100%;
+}
+.home2{
+	display: flex;
+	width: 100%;
+}
 .Caja-expandible {
 	padding: 5px;
 	background: #555;
@@ -91,8 +99,6 @@ body {
 	right: -1120px;
 	bottom: 450px;
 	display:inline;
-
-
 }
 
 /*Inicio Nuevo*/
@@ -168,4 +174,29 @@ body {
 /*UL Fin*/
 #imagen-dazer {
 	border-radius: 25px;
+}
+@media screen and (max-width: 640px) {
+	.photo-banner{
+	height: 280px;
+	width: 80px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	}
+	.photo-container{
+	right: 0;
+  	bottom: 0;
+  	opacity: 0;
+  	position: fixed;
+	width: 150px;
+  	height: 280px;
+	}
+	body {
+		/*background-size: 100vh 100vw;*/
+		/*background-size: cover;*/
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		overflow: visible;
+		box-sizing: border-box;
+	}
 }
