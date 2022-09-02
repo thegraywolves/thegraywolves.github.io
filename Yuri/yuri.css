@@ -377,4 +377,6 @@ h1 {
 		border-radius: 15px;
 		opacity: 0.2;
 	}
+	body{
+		background-size: cover;
 }
