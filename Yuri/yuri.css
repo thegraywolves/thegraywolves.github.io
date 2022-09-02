@@ -11,7 +11,12 @@ body {
 	background-attachment: fixed;
 	
 }
-
+.contenedor{
+	width: 100%;
+}
+.home{
+	width: 100%;
+}
 .Caja-expandible {
 	padding: 5px;
 	background: #555;
@@ -25,7 +30,8 @@ body {
 
 	text-decoration: none;
 	display: inline;
-	color: ;
+	color: purple;
+	text-shadow: 0 0 7px white;
 
 }
 
@@ -112,6 +118,7 @@ audio:hover ~ .reproductor {
 
 /*Fondo Links*/ 
 .a-fondo-bajo:visited { 
+	visibility: visible;
 	/*color: palevioletred;*/
 }
 .a-fondo-bajo:hover {
@@ -283,3 +290,91 @@ h1 {
 	display: block;
 }
 /*Juegos fin*/
+@media screen and (max-width: 640px) {
+	.photo-banner{
+		display: none;
+	}
+	.photo-container{
+		display: none;
+	}
+	.reproductor{
+		display: none;
+	}
+	.photo{
+		display: none;
+	}
+	.p-li-nombre-respuesta{
+		display: none;
+	}
+	.texto-juegos{
+		display: none;
+	}
+	.contenedor{
+		width: 100%;
+	}
+	.home{
+		width: 100%;
+	}
+	.Caja-expandible{
+		margin-bottom: 0;
+	border: 3px solid purple;
+	border-top: 2px solid purple;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	}
+	/*.Caja-expandible {
+		padding: 5px;
+		background: #555;
+		border: 2px solid #000;
+		display: inline-block;
+		margin-bottom: 20px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}*/
+	.home2{
+		width: 100%;
+	}
+	h1 {
+		background-color: rgba(40, 40, 40, 0.2);
+		border-radius: 10px;
+		padding: 5px;
+		margin: 0;
+		display: inline-block;
+	}
+	.h2-subtitulo {
+		background-color: rgba(40, 40, 40, 0.3);
+		border-radius: 10px;
+		padding: 5px;
+		margin: 5px;
+		display: block;
+		width: 130px;
+	}
+	.home3 .ugandan-war{
+		width: 100%;
+		margin:0;
+	}
+	.home2 .texto-central{
+		width: 99%;
+		/*background-color: red;*/
+		margin-left: 1px;
+	}
+	/*.texto-central {
+		width: 930px;
+		background-color: rgba(40, 40, 40, 0.6);
+		border-radius: 10px;
+		margin-left: 5px;
+		background-color: rgba(40, 40, 40, 0.6);
+		border-radius: 10px;
+		padding-left: 25px;
+	}*/
+	audio { 
+		width: 100px;
+		height: 20px;
+		position: fixed;
+		top: 50%;
+		right: 0;
+		background-color: blueviolet;
+		border-radius: 15px;
+		opacity: 0.2;
+	}
+}
