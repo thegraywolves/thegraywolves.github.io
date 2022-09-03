@@ -20,12 +20,24 @@ body {
 	border-bottom: 3px solid #000;
 	border-right: 3px solid	#000;
 }
+
+
+
+
+.contenedor{
+	width: 100%;
+}
+.home{
+	width: 100%;
+}
+.home .Caja-expandible{
+	visibility: visible;
+}
 .a-prueba {
 
 	text-decoration: none;
 	display: inline;
-	color: ;
-
+	color: orange;
 }
 
 .a-prueba:visited {
@@ -37,6 +49,7 @@ body {
 
 .icons {
 	padding-right: 7px;
+	color: #e0dfde;
 }
 
 
@@ -55,6 +68,9 @@ body {
 	color: darkorange;
 }
 /*Imagenes*/
+.home2{
+	width: 100%;
+}
 #img1 {
 	margin-left: 5px;
 	border-radius: 5px;
@@ -85,4 +101,62 @@ body {
 }
 .ul-style li {
 	color: black;
+}
+
+@media screen and (max-width: 640px) {
+	.Caja-expandible{
+		padding: 3px;
+		background: #555;
+		/*border: 2px solid #000;*/
+		display: inline-block;
+		margin-bottom: 0;
+		border: 3px solid #000;
+		border-top: 2px solid #000;
+		border-bottom: 5px solid #000;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		/*border-bottom-right-radius: 5px;
+		border-bottom: 3px solid #000;
+		border-right: 3px solid	#000;*/
+	}
+	body h1{
+		text-shadow: 3px 3px 3px #555;
+	}
+	body h2{
+		text-shadow: 5px 5px 5px #555;
+	}
+	.home2{
+		/*background-color: red;*/
+		display: flex;
+
+	}
+	.home2 #img1{
+		margin-left: 17px;
+		width: 50%;
+		height: auto;
+		display: inline-block;
+		
+	}
+	.home2 #img2{
+		width: 40%;
+		height: auto;
+		border-radius: 4px;
+		position: relative;
+		bottom: 100px;
+		margin-left: 0;
+	}
+	.div-fondo{
+		margin-left: 7px;
+	}
+	.div-fondo a{
+		color: orange;
+	}
+	.home3{
+		width: 90%;
+		margin: auto;
+	}
+	.ul-style li{
+		width: 90%;
+		margin: auto;
+	}
 }
