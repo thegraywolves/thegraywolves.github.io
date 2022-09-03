@@ -56,7 +56,9 @@ body {
 
 
 
-
+.Caja-expandible a{
+	color: #FF3A3A;
+}
 
 
 
@@ -119,8 +121,11 @@ body {
 		width: 90%;
 		height: auto;
 	}
-	body{
-	background-size: cover;
-	background-position: center;
+	body {
+		background-size: cover;
+		background-position: center;
+	}
+	.Caja-expandible a{
+		color: #FF3A3A;
 	}
 }
