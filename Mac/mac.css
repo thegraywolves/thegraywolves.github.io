@@ -14,6 +14,12 @@ body {
 
 }
 /*Div navegación*/
+.contenedor{
+	width: 100%;
+}
+.home{
+	width: 100%;
+}
 .Caja-expandible {
 	padding: 5px;
 	background: #555;
@@ -110,3 +116,35 @@ body {
 	background-color: rgba(10, 10, 10, 0.6);
 }
 /*Prueba B Fin*/
+
+@media screen and (max-width: 640px) {
+	body{
+		background-size: cover;
+		background-position: center;
+	}
+	
+	.div-foto:hover + .div-foto-2 {
+		display: none;
+	}
+	.home2 {
+		width: 90%;
+		margin: auto;
+	}
+	#texto-central{
+		padding: 0 25px;
+		margin-left: 20px;
+		width: 90%;
+	}
+	.div-foto {
+		margin-left: 58px;
+	}
+	.div-fondo-bajo{
+		margin-bottom: 5px;
+	}
+	.h1-titulo{
+		border-radius: 15px;
+	}
+	.h2-titulo{
+		border-radius: 10px;
+	}
+}
