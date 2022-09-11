@@ -1,0 +1,384 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: whitesmoke;
+}
+body {
+	background-image: url(aperture-science.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*Inicio*/
+.contenedor{
+	width: 100%;
+}
+.home{
+	width: 100%;
+}
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	/*border: 3px solid #000;*/
+	display: inline-block;
+	/*margin-bottom: 20px;*/
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #000 ;
+}
+.icons {
+	padding-right: 7px;
+}
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+}
+.a-prueba {
+	text-decoration: none;
+	display: inline;
+}
+
+.a-prueba:visited {
+	color: whitesmoke;
+}
+.a-prueba:hover {
+	color: #BAF5FB;
+}
+
+.h1 {
+	font-size: 60px;
+	text-shadow: 2px 2px 20px rgb(20, 20, 20);
+    background-color: rgb(100, 100, 100, 0.4);
+    border-radius: 50px;
+}
+
+
+.texto-fondo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 5px;
+	/*margin-bottom: 4px;*/
+}
+
+.link-fondo {
+	color: rgb(212, 134, 61);
+}
+
+.link-fondo-texto {
+	display: inline;
+	color: rgb(56, 68, 236);
+    text-shadow: 2px 2px 10px orange;
+}
+
+
+.discord-icons {
+
+	position: relative;
+	top: 12px;
+	height: 30px;
+	width: 30px;
+}
+.youtube-icons {
+	position: relative;
+	top: 12px;
+	height: 30px;
+	width: 40px;
+}
+audio { 
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: lightskyblue;
+	
+	border-radius: 15px;
+	opacity: 0.1;
+}
+audio:hover {
+	opacity: 1;
+}
+.home2{
+    width: 55%;
+    background-color: grey;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.home2 p{
+    margin-bottom: 15px;
+}
+#potatos{
+    width: 20%;
+    height: 15%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+#potato{
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 640px) {
+	.home{
+		width: 100%;
+		background-color: red;
+		box-sizing: border-box;
+		/*margin: auto auto;*/
+	}
+    .home2{
+        width: 95%;
+        background-color: grey;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .home2 p{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+	.Caja-expandible {
+		padding: 5px;
+		background: #555;
+		border: 5px solid #000;
+		/*border-top: none;*/
+		display: block;
+		margin-bottom: 0px;
+		border-radius: 3px black;
+		display: flex;
+		margin-bottom: -10px;
+	}
+	/*.Caja-expandible i{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}*/
+	.expandible-li {
+		display: inline-block;
+		color: whitesmoke;
+		margin: 5px 10px;
+	}
+	.h1 {
+		font-size: 35px;
+		text-shadow: 2px 2px 5px rgb(30, 29, 32);
+		margin-bottom: -5px;
+	}
+	body {
+		background-image: url(aperture-science.jpg);
+		background-size: cover;
+		background-position: center;
+		/*background-attachment: fixed;*/
+	}
+    audio { 
+        position: fixed;
+        top: 73%;
+        right: 0;
+        width: 105px;
+        height: 30px;
+        background-color: lightskyblue;
+        border-radius: 15px;
+        opacity: 0.6;
+    }
+    audio:hover {
+        opacity: 1;
+    }
+    #potatos{
+        width: 40%;
+        height: 45%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+    #potato{
+        border-radius: 25px;
+    }
+}
+@media screen and (max-width: 340px) {
+	/*.home2 {
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}*/
+	.h1 {
+		font-size: 40px;
+	}
+	.ul-li-nombres{
+		font-size: 30px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 19px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 320px) {
+	/*.home2 {
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}*/
+	.ul-li-nombres{
+		font-size: 28px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 18px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 290px) {
+	.home2 {
+		/*background-color: red;*/
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 18px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 240px) {
+	.h1{
+		font-size: 30px;
+		
+	}
+	.home2 {
+		/*background-color: red;*/
+		display: flex;
+		height: 100%;
+	}
+	.ul-li-nombres {
+		margin-top: 5px;
+		font-size: 20px;
+		display: inline-block;
+		position: relative;
+		top: 5px;
+		padding: 5px 10px;
+	}
+	.discord-icons {
+
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	.youtube-icons {
+		position: relative;
+		top: 10px;
+		height: 20px;
+		width: 30px;
+	}
+	.home3 {
+		visibility: visible;
+	}
+	.texto-fondo p{
+		/*position: absolute;
+		left: 0;
+		bottom: 0;*/
+		font-size: 18px;
+		/*margin-left: 5px;
+		margin-bottom: 4px;*/
+	}
+	.texto-fondo a{
+		font-size: 18px;
+	}
+	.texto-fondo .link-fondo-texto{
+		font-size: 15px;
+	}
+}
+
