@@ -214,18 +214,19 @@ audio:hover {
 		width: 83px;
 		padding: 8px;
 		background-color: rgba(248, 228, 177, 0.4);
-		border-radius: 45px;
+		border-radius: 35px;
 		color: black;
 		position: absolute;
-		top: 78px;
-		right: 0;
+		top: 112px;
+		right: 3px;
 	}
 	.extra b{
 		display: none;
 	}
 	.extra p{
 	font-size: x-small;
-	margin-top: -20px;
+	margin-top: -22px;
+	margin-left: -1px;
 	}
 	.discord-ico {
 		height: 30px;
@@ -316,6 +317,6 @@ audio:hover {
 		opacity: 0.1;
 	}
 	body{
-	background-size: cover;
+	background-size: 100% 100%;
 	}
 }
