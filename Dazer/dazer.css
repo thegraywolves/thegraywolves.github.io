@@ -103,7 +103,7 @@ body {
 /*Inicio Nuevo*/
 
 /*Chibi Gif*/
-.photo {
+#photo {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -111,7 +111,7 @@ body {
   cursor: pointer;
 }
 /* Contenedor de la imagen */
-.photo-container {
+#photo-container {
   right: -25px;
   bottom: 160px;
   opacity: 0;
@@ -121,7 +121,7 @@ body {
   height: 150px;
 }
 /* Banner de la imagen */
-.photo-banner {
+#photo-banner {
   /*position: absolute;*/
   right: -25px;
   bottom: 160px;
@@ -144,17 +144,42 @@ body {
   position: fixed;
   color: black;
 }
+#texto-gif-2 {
+	opacity: 0;
+	bottom: 155px;
+	right: 170px;
+	border: 2px solid grey;
+	background-color: rgba(250, 250, 250, 0.9);
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 25px;
+	width: 130px;
+	height: auto;
+	position: fixed;
+	color: black;
+  }
+
 /* Cuando se haga hover sobre el contenedor */
-.photo:hover > .photo-container {
+#photo:hover > #photo-container {
   opacity: 1;
   display: block;
 }
-.photo:hover > .photo-banner {
+#photo:hover > #photo-banner {
   opacity: 0;
  
 }
-.photo:hover + .texto-gif {
+#photo:hover + .texto-gif {
   opacity: 1;
+}
+#invoker{
+	font-size: 25px;
+	visibility: visible;
+	width: auto;
+	height: auto;
+}
+#invoker:hover + #texto-gif-2{
+	opacity: 1;
+	background-color: red;
 }
 .texto-2 {
   font-size: 25px;
@@ -175,14 +200,14 @@ body {
 	border-radius: 25px;
 }
 @media screen and (max-width: 640px) {
-	.photo-banner{
+	#photo-banner{
 	height: 280px;
 	width: 80px;
 	position: fixed;
 	right: 0;
 	bottom: 0;
 	}
-	.photo-container{
+	#photo-container{
 	right: 0;
   	bottom: 0;
   	opacity: 0;
@@ -190,6 +215,18 @@ body {
 	width: 150px;
   	height: 280px;
 	}
+	#photo:hover > #photo-container {
+		opacity: 1;
+		display: block;
+    }
+	#photo:hover > #photo-banner {
+		opacity: 0;
+	   
+	}
+	#photo:hover + .texto-gif {
+		opacity: 1;
+	}
+
 	body {
 		background-size: cover;
 	}
