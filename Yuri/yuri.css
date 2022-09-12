@@ -67,7 +67,7 @@ body {
 	margin-bottom: 10px;
 	display: inline-block;
 }
-.div-juegos-titulo { 
+#div-juegos-titulo { 
 	display: block;
 	text-align: center;
 	position: relative;
@@ -88,13 +88,6 @@ audio {
 }
 audio:hover {
 	opacity: 1;
-}
-audio:hover ~ .photo .photo-container {
-  opacity: 1;
-  display: block;
-}
-audio:hover ~ .photo .photo-banner {
-  opacity: 0;
 }
 .reproductor {
 	opacity: 0;
@@ -159,53 +152,42 @@ audio:hover ~ .reproductor {
   position: fixed;
   color: black;
 }
-.Block {
+/*Chibi Gif*/
+#photo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: inline;
+	cursor: pointer;
+}
+/* Contenedor de la imagen */
+#photo-container {
+	right: -18px;
+	bottom: -6px;
+	opacity: 0;
+	position: fixed;
+	display: none;
+  
+}
+/* Banner de la imagen */
+#photo-banner {
+	position: absolute;
+	right: -18px;
+	bottom: -6px;
+	position: fixed;
+	display: block;
+}
+#Block {
 	/*background-color: red;*/
 	height: 22px;
 	width: 285px;
 	position: absolute;
 	left: 30px;
 }
-.Block:hover + .li-nombre-respuesta .p-li-nombre-respuesta {
+#Block:hover + .li-nombre-respuesta .p-li-nombre-respuesta {
 	opacity: 1;
 }
 
-.Block:hover ~ .photo .photo-container {
-  opacity: 1;
-  display: block;
-}
-.Block:hover ~ .photo .photo-banner {
-  opacity: 0;
-}
-
-/*Texto central meme*/
-
-
-/*Chibi Gif*/
-.photo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: inline;
-  cursor: pointer;
-}
-/* Contenedor de la imagen */
-.photo-container {
-  right: -18px;
-  bottom: -6px;
-  opacity: 0;
-  position: fixed;
-  display: none;
-
-}
-/* Banner de la imagen */
-.photo-banner {
-  position: absolute;
-  right: -18px;
-  bottom: -6px;
-  position: fixed;
-  display: block;
-}
 .texto-gif {
   opacity: 0;
   bottom: 243px;
@@ -221,23 +203,15 @@ audio:hover ~ .reproductor {
   color: black;
 }
 /* Cuando se haga hover sobre el contenedor */
-.photo:hover > .photo-container {
-  opacity: 1;
-  display: block;
-}
-.photo:hover > .photo-banner {
-  opacity: 0;
- 
-}
-.photo:hover + .texto-gif {
+#photo:hover + .texto-gif {
   opacity: 1;
 }
 
 /* Gif-Juegos*/
 .texto-juegos {
-	opacity: 0;
-  bottom: 243px;
-  right: 140px;
+  opacity: 0;
+  bottom: 250px;
+  right: 110px;
   border: 2px solid grey;
   background-color: rgba(250, 250, 250, 0.9);
   display: inline-block;
@@ -249,17 +223,11 @@ audio:hover ~ .reproductor {
   color: black;
 }
 
-.div-juegos-titulo:hover ~ .photo .photo-container {
-  opacity: 1;
-  display: block;
-}
-
-.div-juegos-titulo:hover ~ .photo .photo-banner {
-  opacity: 0;
-}
-.div-juegos-titulo:hover + .texto-juegos {
+#div-juegos-titulo:hover + .home3 .texto-juegos {
 	opacity: 1;
 }
+
+
 
 /*H1 y H2*/
 h1 {
@@ -291,10 +259,10 @@ h1 {
 }
 /*Juegos fin*/
 @media screen and (max-width: 640px) {
-	.photo-banner{
+	#photo-banner{
 		display: none;
 	}
-	.photo-container{
+	#photo-container{
 		display: none;
 	}
 	.reproductor{
