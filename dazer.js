@@ -1,3 +1,6 @@
+let sound = new Audio("invoker - laugh.mp3")
+sound.volume= 0.3
+
 let efecto = document.getElementById("invoker");
 let afectado = document.getElementById("photo-banner");
 let afectado2= document.getElementById("photo-container");
@@ -7,6 +10,7 @@ efecto.addEventListener("mouseover", () => {
   afectado2.style.display="block"
   afectado2.style.opacity=1
   afectado3.style.opacity=1
+  sound.play()
 }, false)
 efecto.addEventListener("mouseout", () => {
   afectado.style.display="block"
