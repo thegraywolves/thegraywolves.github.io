@@ -1,0 +1,421 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	color: #000;
+}
+
+body { 
+	background-image: url(aperture-science.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+body > * {
+  width: 100%;
+  border: 1px solid #000;
+  border-bottom-width: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(192, 249, 255, 0.1);
+}
+body > *:last-child {
+  border-bottom-width: 1px;
+}
+.contenedor{
+	width: 100%;
+}
+header,
+footer {
+  min-height: 100px;
+}
+header {
+	margin-top: 5px;
+}
+.Caja-expandible {
+	width: 75%;
+	padding: 5px;
+	background: #555;
+	/*border: 3px solid #000;*/
+	display: block;
+	/*margin-bottom: 20px;*/
+	border-bottom: 5px solid #ccc;
+	border-right: 5px solid #ccc;
+	border-bottom-right-radius: 15px;
+	/*border-top-right-radius: 5px solid lightblue;
+	border-bottom-right-radius: 5px solid lightblue;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #000 ;*/
+	position: relative;
+	z-index: 100;
+}
+.icons {
+	padding-right: 7px;
+	color: white;
+}
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+}
+.a-prueba {
+	color: white;
+	text-decoration: none;
+	display: inline;
+
+}
+
+#h1{
+	background-color: rgb(200, 200, 200, 0.7);
+	border-radius: 25px;
+	width: 50%;
+	height: 90%;
+}
+
+.a-prueba:visited {
+	color: whitesmoke;
+}
+.a-prueba:hover {
+	color: #BAF5FB;
+}
+
+.h2-titulo {
+	display: inline-block;
+	font-size: 35px;
+}
+
+/*Audio*/
+audio{
+	position: fixed;
+	right: 0;
+	top: 90%;
+	opacity: 0.2;
+	color: green;
+	/*background-color: green;*/
+}
+audio:hover{
+	opacity: 1;
+	transition: all 0.4s;
+	color: lightblue;
+}
+
+aside {
+  width: 25%;
+  border: 0 solid #000;
+  border-left-width: 1px;
+  background: rgba(50, 50, 50, 0.1);
+ 
+}
+
+.texto-fondo {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	margin-left: 5px;
+	/*margin-bottom: 4px;*/
+}
+
+.container .body {
+	width: 75%;
+	/*background-color: red;*/
+  }
+  
+.container {
+	display: flex;
+	min-height: 300px;
+  }
+
+footer {
+	background: rgba(192, 249, 255, 0.1);
+}
+
+li a:visited {
+	color: #dda;
+}
+li a:hover {
+	color: rgb(50, 50, 243);
+}
+
+.texto-fondo a:hover {
+	color: goldenrod;
+}
+
+
+
+.ul-fondo {
+	background: rgba(198, 203, 204, 0.5);
+	text-align: left;
+	border-radius: 2px;
+}
+.ul-fondo li {
+	margin-left: 35px;
+	margin-bottom: 5px;
+	padding: 2px;
+	font-size: 40px;
+}
+.ul-fondo li a{
+	color:rgb(26, 26, 26);
+}
+.ul-fondo li a:hover{
+	color: rgb(255, 157, 65);
+	transition: all 0.5s;
+}
+header {
+	visibility: visible;
+	/*background: rgba(192, 249, 255, 1);*/
+	/*display: inline;*/
+}
+/*#parte1{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}*/
+.body h3{
+	font-size: 35px;
+	background-color: rgb(200, 200, 200, 0.7);
+	width: 50%;
+	margin: 0 auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.body p{
+	font-size: 35px;
+	background-color: rgb(200, 200, 200, 0.7);
+	margin: auto;
+}
+.body ul{
+	list-style-type: dot;
+	list-style-position: inside;
+}
+.body li{
+	font-size: 35px;
+	background-color: rgb(200, 200, 200, 0.7);
+ 	text-align: left;
+	list-style-type: dot;
+	padding-left: 5px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.body ul:hover{
+	background-color: rgb(200, 200, 200, 1);
+	/*opacity: 1;*/
+	transition: all 0.4s;
+}
+
+#potatos{
+    width: 20%;
+    height: 15%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+	
+}
+#potato{
+    border-radius: 25px;
+}
+#potatos1{
+    width: 10%;
+    height: 10%;
+    margin: 10px auto;
+    box-sizing: border-box;
+	margin-bottom: 35px;
+    border-radius: 25px;
+}
+#potato2{
+	width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    box-sizing: border-box;
+	margin-bottom: 35px;
+    border-radius: 25px;
+}
+
+.info{
+	width: 25%;
+	height: auto;
+	background-color: grey;
+	position:absolute;
+	right: 0;
+	top:0;
+	border-radius: 7px;
+}
+.info:hover{
+	background-color: rgb(201, 201, 201);
+	transition: all 0.5s;
+}
+.home3{
+	background-color: rgb(201, 201, 201, 0.2);
+}
+.home3:hover{
+	background-color: rgb(201, 201, 201, 0.6);
+	transition: all 0.5s;
+}
+
+
+/*Celular*/
+@media screen and (max-width: 640px) {
+	.info{
+		width: 25%;
+	}
+	.info p{
+		font-size: 20px;
+	}
+	#h1{
+		font-size: 35px;
+	}
+	.home {
+		width: 100%;
+		margin: auto;
+	}
+	#Caja-expandible{
+		border-top: 3px solid slategray;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-size: 20px;
+		width: 100%;
+	}
+	.home{
+		width: 100%;
+	}
+	.home .expandible-li{ 
+		display: inline-block;
+		margin: 5px 5px;
+		color: whitesmoke;
+		
+	}
+	.home a{
+		font-size: 20px;
+	}
+	#Titulo{
+		font-size: 45px;
+		text-shadow: 3px #99e;
+	}
+	.h2-titulo {
+		display: inline-block;
+		font-size: 20px;
+	}
+	header{
+		margin-top: 0;
+	}
+	.container{
+		margin-top: 7px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		height: auto;
+	}
+	.container .body {
+		height: 100%;
+	}
+	.body p{
+		font-size: 25px;
+	}
+	.body li{
+		width: 100%;
+	}
+	.body li{
+		font-size: 25px;
+		border-radius: 2px;
+	}
+	.body p{
+		width: 100%;
+		background-color: red;
+	}
+	.ul-fondo{
+		display: none;
+	}
+	.ul-fondo li{
+	
+		margin-bottom: 250px;
+	}
+	aside{
+		display: none;
+	}
+	.home3{
+		margin-top: 10px;
+	}
+	.home3 p{
+		font-size: 20px;
+	}
+	.home3 a{
+		font-size: 20px;
+	}
+	body{
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.texto-fondo {
+		position: relative;
+		display: block;
+		left: 0;
+		bottom: 0;
+		margin: 0 auto;
+	}
+	.texto-fondo b{
+		font-size: 22px;
+	}
+	audio{
+		position: fixed;
+		width: 90px;
+		height: 30px;
+		right: 0;
+		top: 50%;
+		opacity: 0.2;
+	}
+	#potato1{
+		border-radius: 25px;
+		height: 100px;
+	}
+	#potatos1{
+		width: 30%;
+		height: 10%;
+		margin: 5px auto;
+		box-sizing: border-box;
+		/*margin-bottom: 35px;*/
+		border-radius: 25px;
+	}
+	#potato{
+		border-radius: 25px;
+		height: 85px;
+		width: 100%;
+	}
+	#potatos{
+		width: 40%;
+		height: 30%;
+		margin: 5px auto;
+		box-sizing: border-box;
+		border-radius: 25px;
+	}
+	#potato2{
+		width: 100%;
+		height: 75%;
+		margin: 10px auto;
+		box-sizing: border-box;
+		margin-bottom: 0;
+		border-radius: 25px;
+	}
+	.body h3{
+		font-size: 35px;
+		background-color: rgb(200, 200, 200, 0.7);
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	.home3{
+		display: block;
+		position: relative;
+		left: 0;
+		bottom: 0;
+	}
+	html{
+		height: 100vh;
+		margin-bottom: none;
+		background-color: red;
+	}
+}
+
