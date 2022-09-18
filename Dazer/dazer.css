@@ -206,6 +206,7 @@ body {
 	position: fixed;
 	right: 0;
 	bottom: 0;
+	display: none;
 	}
 	#photo-container{
 	right: 0;
@@ -214,19 +215,23 @@ body {
   	position: fixed;
 	width: 150px;
   	height: 280px;
+	display: none;
 	}
 	#photo:hover > #photo-container {
 		opacity: 1;
 		display: block;
+		display: none;
     }
 	#photo:hover > #photo-banner {
 		opacity: 0;
+		display: none;
 	   
 	}
 	#photo:hover + .texto-gif {
 		opacity: 1;
+		display: none;
 	}
-
+	
 	body {
 		background-size: cover;
 	}

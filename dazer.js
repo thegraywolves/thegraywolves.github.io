@@ -5,6 +5,9 @@ let efecto = document.getElementById("invoker");
 let afectado = document.getElementById("photo-banner");
 let afectado2= document.getElementById("photo-container");
 let afectado3= document.getElementById("texto-gif-2")
+
+if (window.matchMedia("(min-width: 800px)").matches){
+  
 efecto.addEventListener("mouseover", () => {
   afectado.style.display="none"
   afectado2.style.display="block"
@@ -30,4 +33,4 @@ efecto1.addEventListener("mouseout", () => {
   afectado2.style.display="none"
   afectado2.style.opacity=0
 }, false)
-
+}
