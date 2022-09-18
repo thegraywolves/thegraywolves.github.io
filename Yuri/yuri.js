@@ -67,3 +67,4 @@ efecto4.addEventListener("mouseout", () => {
     afectado2.style.opacity=0
 }, false)
 }
+/*End*/
