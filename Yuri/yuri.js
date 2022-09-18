@@ -1,6 +1,9 @@
+if (window.matchMedia("(min-width: 800px)").matches){
 let efecto = document.getElementById("Block");
 let afectado = document.getElementById("photo-banner");
 let afectado2= document.getElementById("photo-container");
+    
+
 efecto.addEventListener("mouseover", () => {
   /*efecto.style.backgroundColor="red"*/
   /*afectado.className = "photo-container"*/
@@ -18,6 +21,7 @@ efecto.addEventListener("mouseout", () => {
 
 
 let efecto2=document.getElementById("photo")
+
 efecto2.addEventListener("mouseover", () => {
     /*efecto.style.backgroundColor="red"*/
     /*afectado.className = "photo-container"*/
@@ -62,3 +66,4 @@ efecto4.addEventListener("mouseout", () => {
     afectado2.style.display="none"
     afectado2.style.opacity=0
 }, false)
+}
