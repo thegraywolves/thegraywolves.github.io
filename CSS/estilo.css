@@ -160,10 +160,11 @@ audio {
 	right: 0;
 	background-color: lightskyblue;
 	border-radius: 15px;
-	opacity: 0.6;
+	opacity: 0.4;
 }
 audio:hover {
 	opacity: 1;
+	transition: all 0.8s;
 }
 
 .discord-ico {
@@ -200,6 +201,21 @@ audio:hover {
 	height: 200px;
 	margin-left: 44%;
 }
+#photo-container{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+#photo-banner{
+	width: 205px;
+  	height: 150px;
+	position: block;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+}
+
 @media screen and (max-width: 640px) {
 	.Caja-expandible{
 		display: block;
