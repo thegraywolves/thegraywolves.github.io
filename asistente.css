@@ -38,16 +38,10 @@ header {
 	width: 75%;
 	padding: 5px;
 	background: #555;
-	/*border: 3px solid #000;*/
 	display: block;
-	/*margin-bottom: 20px;*/
 	border-bottom: 5px solid #ccc;
 	border-right: 5px solid #ccc;
 	border-bottom-right-radius: 15px;
-	/*border-top-right-radius: 5px solid lightblue;
-	border-bottom-right-radius: 5px solid lightblue;
-	border-bottom: 3px solid #000;
-	border-right: 3px solid #000 ;*/
 	position: relative;
 	z-index: 100;
 }
@@ -95,6 +89,7 @@ audio{
 	opacity: 0.2;
 	color: green;
 	/*background-color: green;*/
+	border-radius: 5px;
 }
 audio:hover{
 	opacity: 1;
@@ -115,17 +110,17 @@ aside {
 	left: 0;
 	bottom: 0;
 	margin-left: 5px;
-	/*margin-bottom: 4px;*/
 }
 
 .container .body {
 	width: 75%;
-	/*background-color: red;*/
-  }
+	height: 100%;
+}
   
 .container {
 	display: flex;
 	min-height: 300px;
+	
   }
 
 footer {
@@ -165,8 +160,6 @@ li a:hover {
 }
 header {
 	visibility: visible;
-	/*background: rgba(192, 249, 255, 1);*/
-	/*display: inline;*/
 }
 /*#parte1{
 	border-top-left-radius: 2px;
@@ -225,10 +218,18 @@ header {
 }
 #potato2{
 	width: 100%;
-    height: 100%;
+    height: 85%;
     margin: 10px auto;
     box-sizing: border-box;
 	margin-bottom: 35px;
+    border-radius: 25px;
+}
+#potato3{
+	width: 100%;
+    height: 75%;
+    /*margin: 10px auto;*/
+    box-sizing: border-box;
+	margin-bottom: 0;
     border-radius: 25px;
 }
 
