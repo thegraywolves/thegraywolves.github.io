@@ -3,6 +3,11 @@ sound.volume= 0.5
 
 let megaman = document.getElementById("potato4");
 
+let sound = new Audio("invoker - laugh.mp3")
+sound.volume= 0.4
+
+let invoker = document.getElementById("potato5");
+
 /*if (window.matchMedia("(min-width: 800px)").matches){
 efecto.addEventListener("mouseover", () => {
     afectado.style.display="none"
