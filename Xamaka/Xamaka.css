@@ -1,0 +1,145 @@
+* {
+	font-family: 'Inter', cursive;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+body {
+	background-image: url(wallp.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1 {
+	/*background-color: grey;*/
+	display: inline-block;
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 5px;
+	background: rgba(50, 50, 50, 0.1);
+}
+h2 {
+	background-color: grey;
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	padding: 2px;
+	border-radius: 10px;
+	background: rgba(50, 50, 50, 0.1);
+}
+/*Div navegación*/
+.Caja-expandible {
+	padding: 5px;
+	background: #555;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.a-prueba {
+
+	text-decoration: none;
+	display: inline;
+	color: palevioletred;
+
+}
+
+.a-prueba:visited {
+	color: whitesmoke ;
+}
+.a-prueba:hover {
+	color: #BBF5FF;
+}
+
+.icons {
+	padding-right: 7px;
+}
+
+
+
+.expandible-li {
+	display: inline-block;
+	margin: 5px 15px;
+	color: whitesmoke;
+	
+}
+/*Fin Div-navegación*/
+
+.a-fondo-bajo:visited { 
+	color: palevioletred;
+}
+.a-fondo-bajo:hover {
+	color: blueviolet;
+}
+/*Audio Background*/
+audio { 
+	position: fixed;
+	top: 0;
+	right: 0;
+	/*background-color: slateblue;*/
+	border-radius: 15px;
+	opacity: 0.4;
+}
+audio:hover {
+	opacity: 1;
+}
+/*Fin audio*/
+.texto-central {
+	background-color: rgba(180, 180, 180, 0.6);
+	/*color: black;*/
+}
+.texto-central p {
+	color: black;
+}
+.bajo-fondo {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(50, 50, 50, 0.3);
+    color: whitesmoke;
+    z-index: 1;
+}
+.a-fondo-bajo {
+	color: palevioletred;
+}
+
+/* Div central*/ 
+.div-p {
+    position: fixed;
+    bottom: 85px; 
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(50, 50, 50, 0.2);
+    z-index: 2;
+}
+.ul-style {
+	list-style-type:disc;
+	padding-left: 20px;
+}
+.ul-style li {
+	color: black;
+	font-size: 25px;
+	color: whitesmoke;
+
+}
+/* Div central fin*/
+@media screen and (max-width: 640px) {
+	h1{
+		background: rgba(50, 50, 50, 0.3);
+	}
+	.Caja-expandible{
+		margin-bottom: 0;
+	}
+	audio { 
+		width: 100px;
+		height: 30px;
+		position: fixed;
+		bottom: 50%;
+		right: 0;
+		background-color: slateblue;
+		border-radius: 15px;
+		opacity: 0.2;
+	}
+}
