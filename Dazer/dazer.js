@@ -1,5 +1,5 @@
-let sound = new Audio("invoker - laugh.mp3")
-sound.volume= 0.3
+let sound = new Audio("invo.mp3")
+sound.volume= 0.35
 
 let efecto = document.getElementById("invoker");
 let afectado = document.getElementById("photo-banner");
