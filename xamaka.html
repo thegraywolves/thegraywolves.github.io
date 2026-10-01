@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,52 +12,55 @@
 	<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/3b78516aec.js" crossorigin="anonymous"></script>
 	<title>Xamaka</title>
-	
 </head>
 <body>
 
-		<div class="Caja-expandible">
-			<ul>
-				<li class="expandible-li"><i class="icons fas fa-home"></i><a href="index.html" class="a-prueba">Inicio</a></li>
-				<li class="expandible-li"><i class="icons fas fa-book"></i><a href="otros/historias.html" class="a-prueba">Historias del grupo</a></li>
-				<li class="expandible-li"><i class="icons fas fa-user-friends"></i><a href="otros/referidos.html" class="a-prueba">Referidos</a></li>
-				<li class="expandible-li"><i class="icons fas fa-play"></i><a href="video.html" class="a-prueba">Videos</a></li>
-				<li class="expandible-li"><i class="icons fas fa-microphone"></i><a href="asistente.html" class="a-prueba">Asistente Virtual</a></li>
-			</ul>
-		  </div>
-		<center>
-			<h1>Xamaka</h1><br>
-			<h2>Descripción</h2>
-	    </center>
-	    <div class="div-p">
-	    <p>
-	    	<ul class="ul-style">
-	    		<li>Nombre: Constanza</li>
-	    		<li>Edad: 20</li>
-	    		<li>País: Chile</li>
-	    		<li>Hobby: Dibujar, bailar, escuchar música</li>
-	    		<li>Animes preferidos: One piece, Tengen Toppa Gurren-Lagan, Orb</li>
-	    		<li>Juegos preferidos: Osu!, Persona 3, Red dead redemption 2</li>
-	    		<li>Frase celebre: "Ay la weona"</li>
-	    		<li>Comida favorita: Lasaña</li>
-	    		<li>Personaje main en LoL: Xayah</li>
-	    		<li>Algo que odia: Las arañas, cucarachas</li>
-	    		<li>Personajes preferidos: Arthur Morgan, Tao Saotome, Nico Robin</li>
-	    		<li>Canciones preferidas: New Genesis - Ado, Careless Whisper - George Michael, Slave to the Rythm - Michael Jackson</li>
-	    	</ul>
-	    </p>
-		</div>
-	    <!--<div class="texto-central">
-	    	
-	    </div>-->
-	    <!--<img src="multijojo.png"> <br>-->
-	    <div class="bajo-fondo">
-	    	Haz click <a href="index.html" class="a-fondo-bajo">aquí</a> para ir al inicio.<br>
-	    	Haz click <a href="otros/referidos.html" class="a-fondo-bajo">aquí</a> para ir a los referidos.
-	    </div>
-	    <audio autoplay="autoplay" loop="loop" controls>
-			<source src="Xamaka/newg.mp3" type="audio/mp3">
-			Tu navegador no es compatible con HTML5.
-		</audio>
+	<div class="Caja-expandible">
+		<ul>
+			<li class="expandible-li"><i class="icons fas fa-home"></i><a href="index.html" class="a-prueba">Inicio</a></li>
+			<li class="expandible-li"><i class="icons fas fa-book"></i><a href="otros/historias.html" class="a-prueba">Historias del grupo</a></li>
+			<li class="expandible-li"><i class="icons fas fa-user-friends"></i><a href="otros/referidos.html" class="a-prueba">Referidos</a></li>
+			<li class="expandible-li"><i class="icons fas fa-play"></i><a href="video.html" class="a-prueba">Videos</a></li>
+			<li class="expandible-li"><i class="icons fas fa-microphone"></i><a href="asistente.html" class="a-prueba">Asistente Virtual</a></li>
+		</ul>
+	</div>
+
+	<center>
+		<h1>Xamaka</h1><br>
+		<h2>Descripción</h2>
+	</center>
+
+	<div class="div-p">
+		<ul class="ul-style">
+			<li>Nombre: Constanza</li>
+			<li>Edad: 20</li>
+			<li>País: Chile</li>
+			<li>Hobby: Dibujar, bailar, escuchar música</li>
+			<li>Animes preferidos: One piece, Tengen Toppa Gurren-Lagan, Orb</li>
+			<li>Juegos preferidos: Osu!, Persona 3, Red dead redemption 2</li>
+			<li>Frase celebre: "Ay la weona"</li>
+			<li>Comida favorita: Lasaña</li>
+			<li>Personaje main en LoL: Xayah</li>
+			<li>Algo que odia: Las arañas, cucarachas</li>
+			<li>Personajes preferidos: Arthur Morgan, Tao Saotome, Nico Robin</li>
+			<li>Canciones preferidas: New Genesis - Ado, Careless Whisper - George Michael, Slave to the Rythm - Michael Jackson</li>
+		</ul>
+	</div>
+
+	<div class="bajo-fondo">
+		Haz click <a href="index.html" class="a-fondo-bajo">aquí</a> para ir al inicio.<br>
+		Haz click <a href="otros/referidos.html" class="a-fondo-bajo">aquí</a> para ir a los referidos.
+	</div>
+
+	<audio id="musica" autoplay loop controls>
+		<source src="Xamaka/newg.mp3" type="audio/mpeg">
+		Tu navegador no es compatible con HTML5.
+	</audio>
+
+	<script>
+		const musica = document.getElementById("musica");
+		musica.volume = 0.2;
+	</script>
+
 </body>
 </html>
